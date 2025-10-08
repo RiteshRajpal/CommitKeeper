@@ -1,0 +1,13 @@
+project_id = "iivldksrjfyrilxlesta"
+
+[functions.analyze-priority]
+verify_jwt = true
+
+[functions.suggest-by-mood]
+verify_jwt = true
+
+[functions.auto-reschedule]
+verify_jwt = true
+
+[functions.analyze-behavior]
+verify_jwt = true

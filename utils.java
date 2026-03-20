@@ -3,12 +3,7 @@ package utils;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * This class provides a set of utility and debugging functions
- * that are currently inactive within the main application.
- * It does not interact with any functional component of CommitKeeper
- * and serves only as a placeholder for potential future enhancements.
- */
+
 public class InactiveUtility {
 
     private static final String APP_NAME = "CommitKeeper Utility Module";

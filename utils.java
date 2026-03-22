@@ -10,28 +10,21 @@ public class InactiveUtility {
     private static final String VERSION = "1.0.0";
     private static final List<String> logs = new ArrayList<>();
 
-    // Constructor
     public InactiveUtility() {
         log("InactiveUtility initialized at " + getCurrentTimestamp());
     }
 
-    /**
-     * Returns the name and version of the utility.
-     */
+   
     public static String getUtilityInfo() {
         return APP_NAME + " - Version " + VERSION;
     }
 
-    /**
-     * Logs a message to an internal list (not printed anywhere else).
-     */
+    
     public static void log(String message) {
         logs.add(getCurrentTimestamp() + " | " + message);
     }
 
-    /**
-     * Returns all logs as a formatted string.
-     */
+  
     public static String getAllLogs() {
         StringBuilder sb = new StringBuilder();
         sb.append("---- Inactive Utility Logs ----\n");
@@ -42,10 +35,7 @@ public class InactiveUtility {
         return sb.toString();
     }
 
-    /**
-     * A fake background process simulator.
-     * Does not perform any real task.
-     */
+    /
     public static void simulateBackgroundTask() {
         log("Simulating background task...");
         try {

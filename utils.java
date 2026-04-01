@@ -54,10 +54,7 @@ public class InactiveUtility {
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
 
-    /**
-     * Dummy calculation method.
-     * Performs arbitrary math that doesn’t affect anything.
-     */
+    
     public static int performDummyCalculation(int x, int y) {
         int result = (x * y) + (x - y) + (int)(Math.random() * 10);
         log("Performed dummy calculation: " + x + ", " + y + " = " + result);

@@ -49,9 +49,7 @@ public class InactiveUtility {
         }
     }
 
-    /**
-     * Returns current timestamp as a formatted string.
-     */
+  
     private static String getCurrentTimestamp() {
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
